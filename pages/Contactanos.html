@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Contactanos</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/dec9378729.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/dec9378729.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
@@ -21,7 +22,8 @@
                 <li><a href="mujeres.html">Mujeres</a></li>
                 <li><a href="hombres.html">Hombres</a></li>
                 <li><a href="contactanos.html">Contactanos</a></li>
-                <li><input type="text" name="busqueda" placeholder="Busqueda"></li>
+                <li class="d-flex"><input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Buscar</button></li>
             </ul>
         </nav>
     </header>
@@ -29,38 +31,25 @@
         <section>
             <h1 class="section__h1--titulos">Contactanos</h1>
         </section>
-        <section class="formulario">
-            <form class="form__formulario" action="">
-                <fieldset>
-                    <legend>Formulario</legend>
-                    <label for="name">Nombre</label>
-                    <input type="text" name="name" placeholder="Ingresa tu nombre" required>
-                    <br>
-                    <label for="apellido">Apellido</label>
-                    <input type="text" name="apellido" placeholder="Ingresa tu apellido" required>
-                    <br>
-                    <label for="mail">E-mail</label>
-                    <input type="email" name="mail" placeholder="Ingresa tu E-mail" required>
-                    <br>
-                    <select name="E.civil" id="">
-                        <option value="">Selecione un estado civil</option>
-                        <option value="solter@">Solter@</option>
-                        <option value="Casad@">Casad@</option>
-                    </select>
-                    <br>
-                    <label for="rnew">¿Desea recibir el Newsletter?</label>
-                    <input type="checkbox" name="rnew">
-                    <br>
-                    <label for="mensaje">Dejanos tu mensaje</label>
-                    <br>
-                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Escribe aqui"></textarea>
-                    <br>
-                    <input type="reset" value="Limpiar formulario">
-                    <input type="submit" value="Enviar formulario">
-
-                </fieldset>
-            </form>
-        </section>
+        <form>
+            <div class="mb-3 p-3 col-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" placeholder="Ingresa tu nombre" required >
+              </div>
+            <div class="mb-3 p-3 col-3">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" placeholder="Ingresa tu apellido" required >
+            </div>
+            <div class="mb-3 p-3 col-3 ">
+                <label for="email" class="form-label">Email </label>
+                <input type="email" class="form-control "  aria-describedby="emailHelp"placeholder="Ingresa tu E-mail" required >
+              </div>
+            <div class="mb-3 form-check  m-5" >
+              <input type="checkbox" class="form-check-input " id="exampleCheck1">
+              <label class="form-check-label  " for="exampleCheck1">¿Desea recibir el Newsletter?</label>
+            </div>
+            <button type="submit" class="btn btn-primary m-4">Enviar</button>
+          </form>
     </main>
     <footer class="footer__lista--fondo">
         <ul class="footer__lista--flex">
@@ -83,5 +72,7 @@
             </li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

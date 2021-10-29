@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/styles.css">
     <title>Zapateria</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap" rel="stylesheet">
@@ -21,22 +22,46 @@
                 <li><a href="./pages/mujeres.html">Mujeres</a></li>
                 <li><a href="./pages/hombres.html">Hombres</a></li>
                 <li><a href="./pages/contactanos.html">Contactanos</a></li>
-                <li><input type="text" name="busqueda" placeholder="Busqueda"></li>
+                <li class="d-flex"><input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Buscar</button></li>
             </ul>
         </nav>
     </header>
+ 
     <main class="main--fondo">
-        <section class="section--flex">
+        <!-- <section class="section--flex">
             <h1 class="section__h1--titulo">Destacados</h1>
             <article>
                <img src="./images/banner-superior.PNG" alt="new balance blancas" class="section__article--pos">
             </article>
-        </section>
-        <h2 class="article__h2--precio">
-            Precio: $xxxx
-        </h2>
-        <label for="comprar"></label>
-        <input type="button" name="comprar" value="Comprar" class="bottonz1">
+        </section>-->
+    
+        <div id="carouselExampleIndicators" class="carousel slide section--flex" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/banner-superior.PNG" class="d-block w-100" alt="nb_blancas">
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner2.jpg" class="d-block w-100 " alt="zap_fa">
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner3.jpg" class="d-block w-100" alt="zn">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         <section>
             <article>
                 <ul class="article__lista--precio">
@@ -95,5 +120,7 @@
             </li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
