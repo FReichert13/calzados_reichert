@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,17 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/dec9378729.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dec9378729.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header class="header">
         <nav class="header__navbar">
             <ul class="header__navbar--lista">
-                <li class="header__navbar--logo"><a href="../index.html"><img src="../images/high_heel.png" alt="logo"></a></li>
+                <li class="header__navbar--logo"><a href="../index.html"><img src="../images/high_heel.png"
+                            alt="logo"></a></li>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="ofertas.html">OFERTAS %</a></li>
                 <li><a href="nmodelos.html">Nuevos Modelos</a></li>
@@ -24,27 +27,67 @@
                 <li><a href="mujeres.html">Mujeres</a></li>
                 <li><a href="hombres.html">Hombres</a></li>
                 <li><a href="contactanos.html">Contactanos</a></li>
-                <li class="d-flex"><input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <li class="d-flex"><input class="form-control me-2" type="search" placeholder="Buscar"
+                        aria-label="Search">
                     <button class="btn btn-outline-primary" type="submit">Buscar</button></li>
             </ul>
         </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light  ">
+            <div class="container-fluid  ">
+                <a href="index.html" class="header__navbar--logo"><img src="../images/high_heel.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ofertas.html">OFERTAS %</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nmodelos.html">Nuevos Modelos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="infantil.html">Infantil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mujeres.html">Mujeres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="hombres.html">Hombres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactanos.html">Contactanos</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main class="main--fondo">
+    <main class="main--fondo min-vh-100">
         <section>
             <article>
                 <h1 class="section__h1--titulos">Ofertas %</h1>
                 <ul class="article__lista--precio">
                     <li>
                         <img src="../images/ofertas/chatitas_dorado.jpg" alt="zo1" class="imagen">
-                        
+
                     </li>
                     <li class="lista--precios">
                         <img src="../images/ofertas/infantil_m.jpg" alt="zo2" class="imagen">
-                        
+
                     </li>
                     <li class="lista--precios--tres">
                         <img src="../images/ofertas/salomon_rosado.jpg" alt="zo3" class="imagen">
-                        
+
                     </li>
                 </ul>
                 <ul class="article__lista--precio-2">
@@ -52,7 +95,7 @@
                         <h4>Precio: $xxxx</h4>
                         <label for="comprar"></label>
                         <input type="button" name="comprar" value="Comprar" class="bottones">
-                        
+
                     </li>
                     <li>
                         <h4>Precio: $xxxx</h4>
@@ -72,15 +115,15 @@
                 <ul class="article__lista--precio">
                     <li>
                         <img src="../images/ofertas/zap_freeway.jpg" alt="zo4" class="imagen">
-                        
+
                     </li>
                     <li class="lista--precios">
                         <img src="../images/ofertas/zap_peppa.jpg" alt="zo5" class="imagen">
-                        
+
                     </li>
                     <li class="lista--precios--tres">
                         <img src="../images/ofertas/zap_rojas.jpg" alt="zo6" class="imagen">
-                        
+
                     </li>
                 </ul>
                 <ul class="article__lista--precio-2">
@@ -88,7 +131,7 @@
                         <h4>Precio: $xxxx</h4>
                         <label for="comprar"></label>
                         <input type="button" name="comprar" value="Comprar" class="bottones">
-                        
+
                     </li>
                     <li>
                         <h4>Precio: $xxxx</h4>
@@ -105,27 +148,49 @@
         </section>
     </main>
     <footer class="footer__lista--fondo">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4 footersito">
+                <ul class="footer__lista--flex2">
+                    <li class="footer__lista--bordes"><a href="../index.html">Inicio</a></li>
+                    <li class="footer__lista--bordes"><a href="nosotros.html">Nosotros</a></li>
+                    <li class="footer__lista--bordes"><a href="contactanos.html">Contactanos</a></li>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank"><i
+                                class="fab fa-facebook-square icon--face"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank"><i
+                                class="fab fa-instagram icon--insta"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark footersito">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
         <ul class="footer__lista--flex">
             <li class="footer__lista--bordes"><a href="../index.html">Inicio</a></li>
             <li class="footer__lista--bordes"><a href="nosotros.html">Nosotros</a></li>
-            <li class="footer__lista--bordes"><a href="sucursales.html">Sucursales</a></li>
             <li class="footer__lista--bordes"><a href="contactanos.html">Contactanos</a></li>
-            <li class="footer__lista--bordes"><a href="preguntas.html">Preguntas Frecuentes</a></li>
-            <li class="footer__li--mail">Recibe Noticias</li>
-            <li class="footer__li--mail">
-                <label for="mail">Mail</label>
-                <input type="email" name="mail" placeholder="Ingresa tu mail">
-            </li>
-            <li><input type="submit" value="Suscribirme" class="boton"></li>
             <li>
-                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square icon--face"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i
+                        class="fab fa-facebook-square icon--face"></i></a>
             </li>
             <li>
                 <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram icon--insta"></i></a>
             </li>
         </ul>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
     <script src="../js/bootstrap.min.js"></script>
 </body>
+
 </html>
