@@ -1,0 +1,19 @@
+{
+  "name": "zapateria-reichert-v.p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FReichert13/repo_entrega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FReichert13/repo_entrega/issues"
+  },
+  "homepage": "https://github.com/FReichert13/repo_entrega#readme"
+}

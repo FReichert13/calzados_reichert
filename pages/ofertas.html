@@ -22,11 +22,10 @@
                             alt="logo"></a></li>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="ofertas.html">OFERTAS %</a></li>
-                <li><a href="nmodelos.html">Nuevos Modelos</a></li>
+                <li ><a href="nmodelos.html">Nuevos Modelos</a></li>
                 <li><a href="infantil.html">Infantil</a></li>
                 <li><a href="mujeres.html">Mujeres</a></li>
                 <li><a href="hombres.html">Hombres</a></li>
-                <li><a href="contactanos.html">Contactanos</a></li>
                 <li class="d-flex"><input class="form-control me-2" type="search" placeholder="Buscar"
                         aria-label="Search">
                     <button class="btn btn-outline-primary" type="submit">Buscar</button></li>
@@ -34,7 +33,7 @@
         </nav>
         <nav class="navbar navbar-expand-lg navbar-light bg-light footersito ">
             <div class="container-fluid  ">
-                <a href="index.html" class="header__navbar--logo"><img src="../images/high_heel.png" alt="logo"></a>
+                <a href="../index.html" class="header__navbar--logo"><img src="../images/high_heel.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -72,7 +71,7 @@
             </div>
         </nav>
     </header>
-    <main class="main--fondo min-vh-100">
+    <main class="main--fondo min-vh-100 main--grid">
         <section>
             <article>
                 <h1 class="section__h1--titulos">Ofertas %</h1>
@@ -110,6 +109,7 @@
                 </ul>
             </article>
         </section>
+        
         <section>
             <article>
                 <ul class="article__lista--precio">
@@ -174,18 +174,33 @@
                 </button>
             </div>
         </nav>
-        <ul class="footer__lista--flex">
-            <li class="footer__lista--bordes"><a href="../index.html">Inicio</a></li>
-            <li class="footer__lista--bordes"><a href="nosotros.html">Nosotros</a></li>
-            <li class="footer__lista--bordes"><a href="contactanos.html">Contactanos</a></li>
-            <li>
-                <a href="https://www.facebook.com/" target="_blank"><i
-                        class="fab fa-facebook-square icon--face"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram icon--insta"></i></a>
-            </li>
-        </ul>
+        <div class="footer--general">
+            <div class="footer--logo">
+                <a href="../index.html"><img src="../images/high_heel.png" alt="logo"></a>
+              <div class="nombre">
+                Zapatería Reichert
+              </div>
+            </div>
+            <div>
+              <ul class="lista redes">
+                <li><a href="contactanos.html"><i class="far fa-envelope"></i> Contactanos</a></li>
+                <li><i class="fas fa-phone-alt"></i></i> Telefono: 343-4245460</li>
+              </ul>
+            </div>
+            <div>
+              <ul class="lista redes">
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram "></i> @Zapateria-R</a></li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i> @Zapateria-R</a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square "></i> @Zapateria-R</a></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="lista">
+                <li class="imagen--google"><img src="../images/google-maps.PNG" alt="google-maps"></li>
+                <li><i class="fas fa-map-marker-alt"></i> Calle Belgrano 999</li>
+              </ul>
+            </div>
+          </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
