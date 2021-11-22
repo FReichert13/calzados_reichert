@@ -1,0 +1,158 @@
+.footersito{
+    display: none;
+}
+.header{
+    background-color: #79B4B7;
+    height: 10vh;
+    font-size: 1.4rem;
+}
+.header__navbar--lista{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    a:hover{
+        color: grey;
+        font-size: 1em;
+    }
+}
+.header__navbar--logo{
+    img{
+        max-width: 50px;
+        max-height: 50px;
+    }
+}
+.header__navbar--lista{
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:active{
+        font-size: 0.9em;
+    }
+}
+.article__lista--precio{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 1vh;
+    img{
+        max-width: 29vw;
+        max-height: 29vh;
+        border: solid;
+        border-radius: 0.5em;   
+    }
+}
+.banner--main{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.parrafo--main{
+    text-align: center;
+    padding: 0.5rem;
+}
+.main--fondo{
+    background-color: #F8F0DF;
+    min-height: 90vh; 
+}
+.section__h1--titulos{
+    font-size: 2em;
+    text-align: center;
+}
+.article__lista--precio-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+.imagen:hover{
+    transform: scale(1.2,1.2);
+}
+.bottones{
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+.bottones:hover{
+    background-color: rgb(83, 192, 187);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.main--grid{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr  1fr;
+}
+.div--contactanos{
+    justify-content: center;
+    padding: 1vh;
+    margin:1rem;
+    img{
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+        display: block;
+    }
+}
+.main--contactanos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+}
+.footer__lista--fondo{
+    background-color: #79B4B7;
+    font-size: 1.4rem;
+    height: 16vh;
+    color: black;
+}
+.footer--general{
+    display: grid;
+    grid-template-columns: 22% 25% 18% 35%;
+    grid-template-rows: 14.5vh;
+}
+.footer--logo{
+    img{
+        max-width: 50px;
+        max-height: 50px;
+        margin-top: 2rem;
+        margin-left: 5.5rem;
+    }
+}
+.imagen--google{
+    img{
+        width: 30vw;
+        height: 10vh;
+        display: block;
+    }
+}
+.lista{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    li{
+        margin-top: 0.5rem;
+        font-size: 1rem; 
+    }
+    a:hover{
+        color: grey;
+    }
+}
+.redes{
+    li{
+        margin-top: 1rem;
+    }
+}
+.nombre{
+    font-size: 0.7em;
+    margin-left: 3.8rem;
+}
+.lista--contactanos{
+    padding: 1vh;
+}
