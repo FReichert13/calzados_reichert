@@ -46,19 +46,56 @@
     }
 }
 .banner--main{
-    max-width: 100%;
-    height: auto;
-    margin: auto;
-    display: block;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    img{
+        width: 100%;
+    }
+ }
 .parrafo--main{
     text-align: center;
     padding: 0.5rem;
 }
-
 .main--fondo{
     background-color: #F8F0DF;
     min-height: 80vh; 
+}
+.final--main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+.envios{
+    font-size: 8em;
+}
+.pagos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 4em;
+    padding-top: 4vh;
+}
+.estrellas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 1.5em;
+    font-size: 3em;
+}
+.final--p{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1.5em;
+    text-align: center;
+}
+.footer--marcas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    img{
+        width: 6vw;
+        height: 6vh;
+        padding-top:0.5em;
+    }
 }
 .section__h1--titulos{
     font-size: 2em;
@@ -100,6 +137,19 @@
         display: block;
     }
 }
+.footer--marcas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 0.5em;
+    img{
+        max-height: 8vh;
+        max-width: 6vw;
+        width: auto;
+        height: auto;
+        padding-bottom: 0.5em;
+    }
+}
 .main--contactanos{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -133,6 +183,7 @@
 }
 .lista{
     list-style: none;
+    padding: 0em;
     a{
         text-decoration: none;
         color: black;
@@ -147,7 +198,7 @@
 }
 .redes{
     li{
-        margin-top: 1rem;
+        margin-top: 0.5rem;
     }
 }
 .nombre{

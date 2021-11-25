@@ -9,13 +9,13 @@
 @media (min-width:768px) {
     @import "tablet";
 }
-@media (min-width:768px) and (max-height:630px){
+@media (min-width:768px) and (max-height:700px){
     @import "tablet2";
 }
 @media (min-width:1024px){
     @import "escritorio";
 }
-@media (min-width:1024px) and (max-height:640px){
+@media (min-width:1024px) and (max-height:750px){
     @import "escritorio2";
 }
 
